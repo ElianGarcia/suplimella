@@ -27,22 +27,46 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/animate.min.css",
+              "src/assets/vendors/owlcarousel/owl.carousel.css",
+              "src/assets/vendors/revolution/css/settings.css",
+              "src/assets/vendors/revolution/css/layers.css",
+              "src/assets/vendors/revolution/css/navigation.css",
+              "src/assets/vendors/jquery-ui-1.11.4/jquery-ui.min.css",
+              "src/assets/css/style.css",
+              "src/assets/css/responsive.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-1.12.2.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/vendors/revolution/js/jquery.themepunch.revolution.min.js",
+              "src/assets/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js",
+              "src/assets/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js",
+              "src/assets/vendors/revolution/js/extensions/revolution.extension.navigation.min.js",
+              "src/assets/js/jquery.form.js",
+              "src/assets/js/jquery.validate.min.js",
+              "src/assets/js/contact.js",
+              "src/assets/vendors/owlcarousel/owl.carousel.min.js",
+              "src/assets/vendors/jquery-ui-1.11.4/jquery-ui.min.js",
+              "src/assets/js/gmaps.min.js",
+              "src/assets/js/imagelightbox.min.js",
+              "src/assets/js/theme.js"
+            ]
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "1mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "2mb",
+                  "maximumError": "4mb"
                 }
               ],
               "fileReplacements": [
